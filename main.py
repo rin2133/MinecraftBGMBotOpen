@@ -3,7 +3,7 @@ import ffmpeg
 import youtube_dl
 from discord.ext import commands
 discord.opus.is_loaded()
-TOKEN = 'MTAxMzIzMjU2Nzg0OTMzNjkyMw.Gzx7yn.pFLSft-D9JOlTLUreowOaNleXSnbjW6bjN1BAw'
+TOKEN = 'token'
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
